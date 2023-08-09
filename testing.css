@@ -1,0 +1,131 @@
+p, li {
+    color: green;
+    font-size: 2rem;
+    font-family: 'Arial';
+}
+
+.belajar-css {
+    color:orange
+}
+
+/* spesific seperti ini, lebih tinggi dari class biasa */
+li.belajar-css {
+    color: purple;
+}
+/* Merubah warna p yang sebelumnya adalah h1 */
+h1 + p {
+    color:aqua}
+
+.js-mapping {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* State dapat diembed ke class, id, maupun tag */
+.js-mapping:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d14212;
+}
+.open-source {
+    color: white;
+    background-color: green
+
+}
+
+.propetiary {
+    background-color: yellow;
+
+}
+
+a:link{
+    color:pink
+}
+
+a:visited{
+    color:greenyellow
+}
+
+a:hover{
+    color:brown
+}
+/* fungsi importan */
+#leaflet {
+    color: pink !important;
+    font-size: x-large;
+}
+
+#openlayers:hover {
+    font-size: larger;
+    background-color: #d1a112;
+}
+
+#arcgis-js {
+    font-size: smaller;
+}
+
+#googlemaps {
+    font-size: xx-large;
+    /* calc berguna untuk membuat ui yang responsif */
+    /* font-size: calc(100px - 2rem);  */
+    border: thick double;
+    border-color: black;
+    /* padding: 20px; */
+    padding: 10px 5px 10px 5px;
+}
+
+.kotak {
+    margin: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    transform: rotate(45deg);
+
+}
+/* Rules, aturan yang dapat digunakan ketika tampilan berada pada dimensi tertentu (mis.hp,tablet, laptop) */
+@media(min-width:300px) {
+.kotak {
+    margin: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    transform: rotate(45deg);
+
+}}
+
+a[title]{
+    background-color: aquamarine;
+}
+
+a[title='personalwebsite']{
+    background-color: darkkhaki;
+}
+
+a[title='personalwebsite']::before{
+    content: '😊😊';
+}
+
+p::first-line{
+    background-color: blueviolet;
+}
+
+body > ul > li > ol > li[title='text'] {
+    color: blueviolet;
+}
+
+div > h1 {
+    color:blue
+}
+
+div > h1 {
+    color:red
+}
+.testing-hello-world {
+    background-color: aquamarine;
+}
+
+#computer {
+    color: black;
+}
+
+body {
+    background-image: url(./geocourse.png);
+}
+

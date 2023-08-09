@@ -1,0 +1,15 @@
+.font-courier {
+    font-family: helvetica;
+}
+
+@font-face {
+    font-family: 'Numanosimo';
+    src: url(./font/Lumanosimo/Lumanosimo-Regular.ttf);
+}
+
+.header-button {
+ margin-top: 10px;
+}
+.font-lumanosimo {
+    font-family: Lumanosimo;
+}
